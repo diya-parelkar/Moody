@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "login.css">
     <title>Log In</title>
 </head>
 <body>
-    <a href="./home.html">Home</a>
+    <!-- <a href="./home.html">Home</a> -->
+    <div class = "main-container">
+        <div class = "login-container">
+            <div class = "text">
+                <h2>Can't decide what song to play next?</h2>
+                <h2><br>Log in to <em style = "color: #F7E987;"><strong>Moody!</strong></em></h2>
+            </div>
+            <div class = "details-container">
+                <div class = "details"><label> <input type = "text" placeholder = "Username" name = "username" required minlength = "3" maxlength = "12"> </label></div>
+                <div class = "details"><label> <input type = "password" placeholder = "Password" name = "password" required minlength = "6" maxlength = "8" autocomplete = "current-password"> </label></div>
+                <div class = "details"><label> <input type = "submit" value = "Log In" id = "login"> </label></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
