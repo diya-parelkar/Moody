@@ -1,0 +1,89 @@
+
+body {
+    background-image: url(starrynight2.gif);
+    background-size: 1920px 1000px;
+    background-repeat: no-repeat;
+    font-family:"VT323", monospace;
+} 
+
+button{
+background-color:black;
+color:white;
+padding:30px,64px;
+font-size:20px;
+border-radius: 12px;
+HEIGHT:40px;
+width:90px;
+font-family: "VT323", monospace;
+}
+button:hover {
+    background: transparent;
+    border-color: black;
+    color: black;
+    border-radius:12px;
+}
+.header{
+    font-family: "VT323", monospace;
+    font-size: xx-large;
+    color:black;
+    text-align: center;
+    
+}
+.chat-box {
+    display:flex;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+    width: 90%;
+    background-color: rgba(115,79,150,0.9); 
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+.chat-box .incoming-chat{
+    display:flex;
+}
+.chat-box .incoming-chat p{
+    padding:10px;
+    background-color:  orange;
+    border-radius: 10px;
+}
+
+.chat-box .user-input{
+    justify-content: flex-end;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline: none;
+    background-color:#c6ca74;
+    margin-left:200px;
+
+}
+.chat-box button{
+    margin-left:300px;
+}
+
+a{
+    font-family: "VT323", monospace;
+    font-size: x-large;
+    text-decoration: none;
+    color:whitesmoke;
+    background-image: linear-gradient(whitesmoke, #d99a5a);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-size: 100% 0.1em;
+    background-position-x: 0%;
+}
