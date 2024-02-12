@@ -7,14 +7,15 @@ body {
 } 
 
 button{
-background-color:black;
-color:white;
-padding:30px,64px;
-font-size:20px;
-border-radius: 12px;
-HEIGHT:40px;
-width:90px;
-font-family: "VT323", monospace;
+    background-color:black;
+    color:white;
+    padding: 0px;
+    font-size:20px;
+    border-radius: 12px;
+    HEIGHT:40px;
+    width:90px;
+    font-family: "VT323", monospace;
+    margin-bottom: 0px;
 }
 button:hover {
     background: transparent;
@@ -35,7 +36,7 @@ button:hover {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 400px;
+    max-width: max-content;
     width: 90%;
     background-color: rgba(115,79,150,0.9); 
     border-radius: 20px;
@@ -47,25 +48,35 @@ button:hover {
 .chat-box .incoming-chat{
     display:flex;
 }
-.chat-box .incoming-chat p{
-    padding:10px;
+.chat-box .incoming-chat {
+    padding:10px 0 0 10px;
+    margin: 6px 6px 190px 0;
     background-color:  orange;
     border-radius: 10px;
+    width: 200px;
+    
 }
 
-.chat-box .user-input{
+.chat-box .user-input
+{
     justify-content: flex-end;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-    outline: none;
-    background-color:#c6ca74;
-    margin-left:200px;
-
+   padding: 10px 4px 4px 10px;
+   border: none;
+   border-radius: 10px;
+   margin-top: 100px;
+   outline: none;
+   background-color: #c6ca74;
+   margin-left: 10px;
+   width: 80%;
+   max-width: fit-content;
+   
 }
-.chat-box button{
-    margin-left:300px;
+
+textarea {
+    background-color: #c6ca74;
+    border-radius: 8px;
+    padding: 10px;
+
 }
 
 a{
@@ -87,3 +98,4 @@ a:active {
     background-size: 100% 0.1em;
     background-position-x: 0%;
 }
+
