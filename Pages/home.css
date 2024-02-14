@@ -79,6 +79,14 @@ textarea {
 
 }
 
+.box {
+    width: 96%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #C4DBFE;
+    margin: 10px auto;            
+}
+
 a{
     font-family: "VT323", monospace;
     font-size: x-large;
