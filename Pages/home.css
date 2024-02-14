@@ -32,7 +32,8 @@ button:hover {
 }
 
 .chat-box {
-    overflow:scroll;
+    overflow-y:scroll;
+    max-height:60%;
     position: fixed;
     bottom: 20px;
     left: 50%;
