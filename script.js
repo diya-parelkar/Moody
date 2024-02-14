@@ -22,7 +22,7 @@ async function submit() {
   question.innerHTML = inputText
   question.classList.add("box")
   parentDiv.appendChild(question)
-  document.getElementById("input").value = ''
+  document.getElementById("msg-container").value = ''
   // The remaining code goes inside this function
 }
 

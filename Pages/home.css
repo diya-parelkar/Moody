@@ -31,6 +31,7 @@ button:hover {
     
 }
 .chat-box {
+    overflow:scroll;
     display:flex;
     position: fixed;
     bottom: 20px;
@@ -80,11 +81,13 @@ textarea {
 }
 
 .box {
-    width: 96%;
-    margin: 0 auto;
-    padding: 10px 10px;
-    background-color: #C4DBFE;
-    margin: 10px auto;            
+    display: flex;
+    flex-direction: column;
+    padding:10px 0 0 10px;
+    margin: 6px 6px 190px 0;
+    background-color:  #5B9A8B;
+    border-radius: 10px;
+    width: 200px;            
 }
 
 a{
