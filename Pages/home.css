@@ -37,12 +37,17 @@ button:hover {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    /* max-width: fit-content; */
     width: 40%;
     background-color: rgb(68, 80, 105 ,0.9); 
     border-radius: 20px;
     padding: 10px;
     
     
+}
+
+#chat-box {
+    width: 90%;
 }
 
 .chat-box .incoming-chat{
@@ -53,7 +58,7 @@ button:hover {
     margin: 6px 6px 20px 0;
     background-color:  #5B9A8B;
     border-radius: 10px;
-    width: 200px;
+    width: 40%;
     
 }
 
@@ -82,7 +87,9 @@ textarea {
 .box {
     display: flex;
     padding:10px 0 10px 10px;
-    margin: 6px 6px 10px 160px;
+    align-items: flex-end;
+    max-width: 40%;
+    margin-left: 70%;
     background-color:  #F7E987;
     border-radius: 10px;
     width: 60%;            
