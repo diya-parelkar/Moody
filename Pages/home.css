@@ -30,14 +30,14 @@ button:hover {
     text-align: center;
     
 }
+
 .chat-box {
     overflow:scroll;
-    display:flex;
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    max-width: max-content;
+    max-width: fit-content;
     width: 90%;
     background-color: rgb(68, 80, 105 ,0.9); 
     border-radius: 20px;
@@ -47,11 +47,11 @@ button:hover {
 }
 
 .chat-box .incoming-chat{
-    display:flex;
+     /* display:flex; */
 }
 .chat-box .incoming-chat {
-    padding:10px 0 0 10px;
-    margin: 6px 6px 190px 0;
+    padding:10px 0 10px 20px;
+    margin: 6px 6px 20px 0;
     background-color:  #5B9A8B;
     border-radius: 10px;
     width: 200px;
@@ -67,7 +67,7 @@ button:hover {
    margin-top: 100px;
    outline: none;
    background-color: #F7E987;
-   margin-left: 10px;
+   margin-left: 70px;
    width: 80%;
    max-width: fit-content;
    
@@ -82,12 +82,11 @@ textarea {
 
 .box {
     display: flex;
-    flex-direction: column;
-    padding:10px 0 0 10px;
-    margin: 6px 6px 190px 0;
-    background-color:  #5B9A8B;
+    padding:10px 0 10px 10px;
+    margin: 6px 6px 10px 160px;
+    background-color:  #F7E987;
     border-radius: 10px;
-    width: 200px;            
+    width: 60%;            
 }
 
 a{
